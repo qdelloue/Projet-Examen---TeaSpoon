@@ -1,0 +1,90 @@
+#section {
+    background-color: #f5efea;
+    margin: 10vh 0 0;
+    padding: 1.875rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.dashboard-menu {
+    width: 25%;
+    background-color: #f5efea;
+    padding: 2rem;
+    border-right: 1px solid #ccc;
+}
+
+.dashboard-menu ul {
+    list-style: none;
+}
+
+.dashboard-menu li {
+    margin-bottom: 1rem;
+}
+
+.dashboard-menu a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    font-family: PlayfairDisplay-Bold;
+    color: #333;
+}
+
+.dashboard-menu a.active {
+    color: #6B8E23;
+}
+
+.dashboard-content {
+    width: 75%;
+    padding: 2rem;
+}
+
+input {
+    background-color: #f5efea;
+    color: #333;
+    font-size: 1rem;
+    font-family: PlayfairDisplay-Regular;
+    padding: 0.75rem 0;
+    border: none;
+    border-bottom: solid 0.0625rem #6B8E23;
+}
+
+input:focus {
+    border-bottom-color: #6B8E23;
+    outline: none;
+}
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: #8E2323; 
+    font-weight: bold;
+    margin-bottom: 0;   
+}
+
+.success {
+    color: #6B8E23; 
+    font-weight: bold;
+    margin-bottom: 0;  
+}
+
+@media (min-width:375px) {
+    .dashboard-menu a {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width:768px) {
+    .dashboard-menu a {
+        font-size: initial;
+    }
+}

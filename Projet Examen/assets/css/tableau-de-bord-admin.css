@@ -1,0 +1,61 @@
+#section {
+    background-color: #f5efea;
+    margin: 10vh 0 0;
+    padding: 1.875rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#update-button {
+    background: #FFC107;
+}
+
+#delete-button {
+    background: #B23A3A;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.admin-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-recipes table,
+.table-users table {
+    min-width: 350px;
+}
+
+.table-messages table {
+    min-width: 700px;
+}
