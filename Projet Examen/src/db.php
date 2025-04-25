@@ -1,9 +1,9 @@
 <?php
 
-$host = "quentsn290.mysql.db";
-$user = "quentsn290";
-$pass = "Test01234";
-$dbname = "quentsn290";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "teaspoon";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
